@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>New York Times Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+<body>
+
+    <div class="container">
+
+
+        <div class="jumbotron jumbotron-fluid" id="header">
+            <div class="container">
+            <h1 class="display-4" ><i class="far fa-newspaper"></i> New York Times Search</h1>
+            </div>
+        </div>
+
+        <div class="container" class="contentSection" id="searchParameters">
+            
+        <p class="sectionHeader"><i class="far fa-list-alt"></i> Search Parameters</p>
+            <form id="formDiv">
+                <div class="form-group">
+                    <label>Search Term:</label>
+                    <input type="email" class="form-control" id="searchTerm-text">
+                </div>
+
+                <div class="form-group">
+                    <label>Number of Records to Retrieve:</label>
+                    <select class="form-control" id="recordsToRetrieve-text">
+                        <option>1</option>
+                        <option>5</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Start Year (Optional):</label>
+                    <input type="email" class="form-control" id="startYear-text">
+                </div>
+                
+                <div class="form-group">
+                    <label>End Year (Optional):</label>
+                    <input type="email" class="form-control" id="endYear-text">
+                </div>
+            
+            </form>
+
+            <button class="btn btn-secondary" type="submit"><i class="fas fa-search"></i> Submit</button>
+            <button class="btn btn-secondary" type="reset"><i class="fas fa-trash-alt"></i> Clear Results</button>
+
+        </div>
+
+        <br>
+
+        <div class="container" class="contentSection" id="topArticles">
+            <p class="sectionHeader"><i class="fas fa-table"></i> Top Articles</p>
+                <div class="listEntry"></div>
+        </div>
+
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+<script src="nysearch.js"></script>
+
+</html>

@@ -1,0 +1,51 @@
+  /* Base Color: 2b3e51 */
+  /* Jumbotron: 1f315a  */
+
+#header {
+    color: #ffffff;
+    background-color: #1f315a;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.h1 {
+    font-weight: bolder;
+}
+
+#searchParameters {
+    border: 1px solid #2b3e51;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+#topArticles {
+    border: 1px solid #2b3e51;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.sectionHeader {
+    color: #ffffff;
+    background-color: #2b3e51;
+    margin-left: -16px;
+    margin-right: -15px;
+    padding: 5px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+#formDiv {
+    margin: 5px;
+}
+
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+    color:darkgrey;
+    text-align: center;
+  } */
+
